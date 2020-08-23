@@ -5,8 +5,9 @@
 
 int myFirst() {
 
-    // 编译指令
+    // 编译指令, 此函数中的使用的预定义对象，都会寻找std命名空间中的预定义对象。
     using namespace std;
+//    using std::cout; 指名道姓的要这个cout
 
     // cout 是iostream中预定义对象，
     // << 表示字符串信息流动的路径，插入运算符（同理于左移运算符，运算符重载的例子）
